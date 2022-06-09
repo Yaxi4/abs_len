@@ -10,7 +10,7 @@ class Counter:
         self.summa += sum(args)
         self.lengh += len(args)
         self.srednee += self.summa / self.lengh
-        print(f'наш экземпляр вызывался {self.count} раз')
+        print(f'наш {self.__name__} вызывался {self.count} раз')
         print(self.summa, 'ghbdt')
 
 b=Counter()
