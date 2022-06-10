@@ -37,3 +37,6 @@ a[8]='создатель Яхия'
 print(a)
 del a[10]
 print(a)
+print('-----------------------------')
+for i in a.values:
+    print(i)
